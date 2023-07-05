@@ -2,13 +2,13 @@ package fcs.prjprueba.beans;
 
 import java.util.ArrayList;
 
-public class Consecionaria {
+public class Concesionaria {
 
     private String nombre;
     private String direccion;
     private ArrayList<Vehiculo> en_servicio;
 
-    public Consecionaria() {
+    public Concesionaria() {
     }
 
     public String getNombre() {

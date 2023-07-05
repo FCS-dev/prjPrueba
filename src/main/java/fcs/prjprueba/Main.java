@@ -1,7 +1,7 @@
 package fcs.prjprueba;
 
 import fcs.prjprueba.beans.Automovil;
-import fcs.prjprueba.beans.Consecionaria;
+import fcs.prjprueba.beans.Concesionaria;
 import fcs.prjprueba.beans.Motocicleta;
 import fcs.prjprueba.beans.Vehiculo;
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        Consecionaria c1 = new Consecionaria();
+        Concesionaria c1 = new Concesionaria();
         c1.setNombre("Principal");
         c1.setDireccion("Surquillo");
         ArrayList<Vehiculo> vehiculos = new ArrayList<>();
